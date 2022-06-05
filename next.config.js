@@ -97,7 +97,8 @@ module.exports = withBundleAnalyzer({
         'react-dom': 'preact/compat',
       })
     }
-
+    const withImages = require('next-images')
+    module.exports = withImages()
     return config
   },
 })
