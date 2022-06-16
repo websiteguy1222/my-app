@@ -13,9 +13,10 @@ export const getStaticProps: GetStaticProps<{
   return { props: { authorDetails: { mdxSource, frontMatter } } }
 }
 
-export default function About({ authorDetails }: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element {
+export default function About({
+  authorDetails,
+}: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element {
   const { mdxSource, frontMatter } = authorDetails
-
   return (
     <MDXLayoutRenderer
       layout={frontMatter.layout || DEFAULT_LAYOUT}
