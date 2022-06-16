@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Aaron Liu Blog',
+  title: 'Aaron Liu Website',
   author: 'Aaron Liu',
-  headerTitle: 'TailwindBlog',
+  headerTitle: 'Aaron Liu Website',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
