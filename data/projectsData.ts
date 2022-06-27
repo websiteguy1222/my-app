@@ -1,11 +1,10 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'Burpee Pinnacle Short Track Championships Event Registration',
+    description: `Created a dynamic speedskating registration site for the 2022 Burpee Pinnacle Speedskating Championships.
+    Worked with TypeScript, Next.js and Prisma and SQL.`,
     imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    href: 'https://www.speedskatingevents.org/',
   },
   {
     title: 'The Time Machine',
